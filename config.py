@@ -10,7 +10,7 @@ SERVER = 'localhost'
 #create database ....
 # SQLAlchemy
 
-DB = 'projetobasefinal'
+DB = 'quickreport'
 #connection string
 SQLALCHEMY_DATABASE_URI=f'mysql://{USERNAME}:{PASSWORD}@{SERVER}/{DB}'
 #modificação
@@ -20,6 +20,5 @@ SQLALCHEMY_TRACK_MODIFICATIONS = True
 #publicar.
 SECRET_KEY ="8a4dbb9594173ae2747f9704468a89bd"
 
-#português
-BABEL_DEFAULT_LOCALE = 'pt'
+
 
